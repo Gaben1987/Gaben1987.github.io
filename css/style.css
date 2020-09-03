@@ -48,31 +48,37 @@
     bottom:300px;
     left:50px
 }
+#keszito{
+    font-family: masodik;
+    text-align: left;
+    font-size: 0.8em;
+    margin:100px 30px 20px 30px;
+}
 #cim{
     font-family:harmadik;
     color: black;
-    font-size: 2.5em;
+    font-size: 2.8em;
     font-weight:bold;
-    margin:30px ;
+    margin:40px ;
 }
 #leiras{
     font-family: elso;
     text-align: left;
     font-size: 1.2em;
-    margin:30px 30px 20px 30px;
+    margin:100px 30px 20px 30px;
 }
 #megjegyzes{
     font-size: 1.2em;
     font-family: elso;
     text-align: justify;
-    margin:30px 30px 20px 30px;
+    margin:30px 30px 100px 30px;
 }
 #infolinkek{ 
     font-family: harmadik;
     text-align: left;
     font-size: 1.8em;
     margin:30px 10px 20px 30px;
-    line-height: 70px;
+    line-height: 60px;
 }
 a{
     display: block;
