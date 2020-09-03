@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: elso;
+    src: url(../ttf/Kodchasan-Italic.ttf);
+}/*Elso - A cím*/
+@font-face {
+    font-family: masodik;
+    src: url(../ttf/Kodchasan-Regular.ttf);
+    
+}/*Masodik - A leírás*/
+@font-face {
+    font-family: harmadik;
+    src: url(../ttf/MTCORSVA.ttf);
+    
+}/*Harmadik - Információk*/
+.box{
+    width: 700px; 
+    text-align: center;
+    margin: 3px auto;
+    border:10px groove red;
+}
+#logo img{
+    width:100%;
+    max-width:600px;
+}
+#logo{
+    width:50%;
+}
+#diszito img{
+    width:100%;
+    max-width:600px;
+}
+#diszito{
+    width:40%;
+    margin:0px auto;
+}/*Díszítő(hullámos) elem a leírások után, az oldal közepére igazítva*/
+#polc img{
+    width:100%;
+    max-width:600px;
+}
+#polc{
+    width:50%;
+    float:right;
+    position:relative;
+    bottom:300px;
+    left:50px
+}
+#cim{
+    font-family:harmadik;
+    color: black;
+    font-size: 2.5em;
+    font-weight:bold;
+    margin:30px ;
+}
+#leiras{
+    font-family: elso;
+    text-align: left;
+    font-size: 1.2em;
+    margin:30px 30px 20px 30px;
+}
+#megjegyzes{
+    font-size: 1.2em;
+    font-family: elso;
+    text-align: justify;
+    margin:30px 30px 20px 30px;
+}
+#infolinkek{ 
+    font-family: harmadik;
+    text-align: left;
+    font-size: 1.8em;
+    margin:30px 10px 20px 30px;
+    line-height: 70px;
+}
+a{
+    display: block;
+    text-decoration:none;
+    color:black;
+}
+@media only screen and (max-width: 600px) {
+    .box {
+      width:100%;
+    }
+    #logo{
+        width:100%;
+    }
+    cim{
+        font-size: 1.5em;
+    }
+    #polc{
+        width:100%;
+        float:none;        
+        position:none;
+        bottom:0px;
+        left:0px
+    }
+  }
+
